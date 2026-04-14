@@ -45,7 +45,6 @@ const VersionToSettingsChangesMap & getSettingsChangesHistory()
             {"enable_materialized_cte", false, false, "New setting"},
             {"finalize_projection_parts_synchronously", false, false, "New setting to finalize projection parts synchronously during INSERT to reduce peak memory usage."},
             {"allow_experimental_ai_functions", false, false, "New setting"},
-            {"default_ai_provider", "", "", "New setting"},
             {"ai_request_timeout_sec", 60, 60, "New setting"},
             {"ai_max_retries", 3, 3, "New setting"},
             {"ai_retry_initial_delay_ms", 1000, 1000, "New setting"},
